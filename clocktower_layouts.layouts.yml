@@ -1,0 +1,154 @@
+layout_onecol_with_header:
+  label: 'One column with Header'
+  template: layout--twocol-with-header
+  category: 'Custom Grid'
+  default_region: first
+  icon_map:
+    - [first]
+    - [second]
+  regions:
+    first:
+      label: Header
+    second:
+      label: Second
+
+layout_clocktower_onecol:
+  label: 'Clocktower One column'
+  template: templates/layouts/one-column/layout--clocktower-onecol
+  category: 'Clocktower Layout'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+
+layout_clocktower_two_col:
+  label: 'Clocktower Two Column'
+  template: templates/layouts/two-column/layout--clocktower-two-col
+  category: 'Clocktower Layout'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
+layout_clocktower_three_col:
+  label: 'Clocktower Three Column'
+  template: templates/layouts/three-column/layout--clocktower-three-col
+  category: 'Clocktower Layout'
+  default_region: first
+  icon_map:
+    - [first, second, third]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+
+      
+layout_oneplusfourgrid_section:
+  label: 'Custom One plus four grid'
+  path: layouts/oneplusfourgrid_section
+  template: layout--oneplusfourgrid-section
+  library: mymodule/oneplusfourgrid_section
+  category: 'Custom grid'
+  default_region: first
+  icon_map:
+    - [first, second, third]
+    - [first, fourth, fifth]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth
+    fifth:
+      label: Fifth
+
+
+layout_twocolnarrow:
+  label: 'Two Column Narrow'
+  path: layouts/twocolnarrow_section
+  template: layout--twocolnarrow_section
+  library: mymodule/layout--twocolnarrow_section
+  category: 'Custom grid'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
+
+
+layout_twocol_with_header:
+  label: 'Two column with Header'
+  template: layout--twocol-with-header
+  category: 'Custom Grid'
+  default_region: first
+  icon_map:
+    - [first, first]
+    - [second, third]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+
+
+layout_threecol_with_header:
+  label: 'Three column with Header'
+  template: layout--threecol-with-header
+  category: 'Custom Grid'
+  default_region: first
+  icon_map:
+    - [first, first, first]
+    - [second, third, fourth]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth
+
+layout_sixgrid_with_header:
+  label: 'Six Grid with Header'
+  template: layout--grid-six-with-header
+  category: 'Custom 6 Grid'
+  default_region: first
+  icon_map:
+    - [first, first, first]
+    - [second, third, fourth]
+    - [fifth, sixth, seventh]
+
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth
+    fifth:
+      label: Fifth
+    sixth:
+      label: Sixth
+    seventh:
+      label: Seventh
