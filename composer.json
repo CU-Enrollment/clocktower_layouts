@@ -2,7 +2,7 @@
     "name": "cu-enrollment/clocktower_layouts",
     "description": "Drupal Layout Builder layouts",
     "version": "0.1-alpha",
-    "type": "library",
+    "type": "drupal-module",
     "license": "MIT",
     "authors": [
         {
@@ -15,5 +15,18 @@
     },
     "require": {
         "drupal/layout_option": "^1.2"
+    },
+    "repositories": {
+        "type": "package",
+        "package": {
+            "name": "cu-enrollment/clocktower_layouts",
+            "version": "0.0.1",
+            "type": "package",
+            "source": {
+                "url": "git@github.com:cu-enrollment/clocktower_layouts.git",
+                "type": "git",
+                "reference": "main"
+            }
+        }
     }
 }
