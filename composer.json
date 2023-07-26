@@ -1,5 +1,5 @@
 {
-    "name": "cu_enrollment/clocktower_layouts",
+    "name": "cu-enrollment/clocktower_layouts",
     "description": "Drupal Layout Builder layouts",
     "version": "0.1-alpha",
     "type": "library",
@@ -15,20 +15,5 @@
     },
     "require": {
         "drupal/layout_option": "^1.2"
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "cu-enrollment/clocktower_layouts",
-                "version": "",
-                "type": "package",
-                "source": {
-                    "url": "git@github.com:cu-enrollment/clocktower_layouts.git",
-                    "type": "git",
-                    "reference": "main"
-                }
-            }
-        }
-    ]
+    }
 }
