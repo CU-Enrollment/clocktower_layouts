@@ -1,6 +1,7 @@
 {
     "name": "cu_enrollment/clocktower_layouts",
     "description": "Drupal Layout Builder layouts",
+    "version": "0.1-alpha",
     "type": "library",
     "license": "MIT",
     "authors": [
