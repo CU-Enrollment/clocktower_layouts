@@ -14,7 +14,6 @@
     "autoload": {
     },
     "require": {
-        "drupal/layout_option": "^1.2"
     },
     "repositories": {
         "type": "package",
