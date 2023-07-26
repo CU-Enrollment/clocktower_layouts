@@ -9,8 +9,10 @@
             "email": "jrw354@cornell.edu"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
     },
-    "require": {}
+    "require": {
+        "drupal/layout_option": "^1.2"
+    }
 }
