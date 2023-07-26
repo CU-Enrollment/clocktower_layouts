@@ -15,5 +15,9 @@
     },
     "require": {
         "drupal/layout_option": "^1.2"
-    }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://github.com/CU-Enrollment/"},
+        {"packagist.org": false}
+    ]
 }
