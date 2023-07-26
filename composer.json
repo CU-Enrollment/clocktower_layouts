@@ -1,0 +1,16 @@
+{
+    "name": "cu_enrollment/clocktower_layouts",
+    "description": "Drupal Layout Builder layouts",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Williams",
+            "email": "jrw354@cornell.edu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+    },
+    "require": {}
+}
