@@ -9,6 +9,19 @@
             "email": "jrw354@cornell.edu"
         }
     ],
+    "repositories": [ {
+        "type": "package",
+        "package": {
+            "name": "Clocktower Layouts",
+            "version": "0.0.1",
+            "source": {
+                "url": "https://github.com/CU-Enrollment/clocktower_layouts",
+                "type": "git",
+                "reference": "master"
+              }
+         }
+    }],
+    "minimum-stability": "dev",
     "autoload": {
     },
     "require": {
