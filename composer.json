@@ -17,7 +17,18 @@
         "drupal/layout_option": "^1.2"
     },
     "repositories": [
-        {"type": "composer", "url": "https://github.com/CU-Enrollment/"},
-        {"packagist.org": false}
+        {
+            "type": "package",
+            "package": {
+                "name": "cu-enrollment/clocktower_layouts",
+                "version": "",
+                "type": "package",
+                "source": {
+                    "url": "git@github.com:cu-enrollment/clocktower_layouts.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
+        }
     ]
 }
