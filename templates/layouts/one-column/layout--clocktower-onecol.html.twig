@@ -13,8 +13,7 @@
 {%
   set classes = [
   'section',
-  'layout',
-  
+
 ]
 %}
 
@@ -25,8 +24,8 @@
 %}
 
 {% if content %}
-  <section {{ attributes.addClass(classes).removeClass(containerSizes) }} {% if content['#settings'].layout_jump_link %} tabindex="-1" {% endif %}>
-    <div class="container {{ content['#settings'].layout_container_size }}">
+  <section class="section {{ content['#settings'].layout_section_bg_color }} {% if content['#settings'].layout_show_header == true %} section--show-header {% endif %}" {% if content['#settings'].layout_jump_link %} tabindex="-1" {% endif %}>
+    <div class="container {{ content['#settings'].layout_container_size }} {{ content['#settings'].layout_bg_color }}">
       <div class="section--header">
         <h2 class="section-header line-bottom">
           {{ content['#settings'].label }}
