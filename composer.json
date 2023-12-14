@@ -10,7 +10,7 @@
             "email": "jrw354@cornell.edu"
         }
     ],
-    "minimum-stability": "1.0.1",
+    "minimum-stability": "stable",
     "autoload": {
     },
     "require": {
