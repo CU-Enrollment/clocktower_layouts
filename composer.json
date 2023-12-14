@@ -14,18 +14,5 @@
     "autoload": {
     },
     "require": {
-    },
-    "repositories": {
-        "type": "package",
-        "package": {
-            "name": "cu-enrollment/clocktower_layouts",
-            "version": "1.0.1",
-            "type": "package",
-            "source": {
-                "url": "git@github.com:cu-enrollment/clocktower_layouts.git",
-                "type": "git",
-                "reference": "main"
-            }
-        }
     }
 }
