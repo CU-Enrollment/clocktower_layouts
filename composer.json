@@ -1,7 +1,6 @@
 {
     "name": "cu-enrollment/clocktower_layouts",
     "description": "Drupal Layout Builder layouts",
-    "version": "stable",
     "type": "drupal-custom-module",
     "license": "MIT",
     "authors": [
