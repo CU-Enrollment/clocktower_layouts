@@ -30,7 +30,7 @@
 %}
 
 {% if content %}
-  <section {{ attributes.addClass(classes).removeClass(gridClasses, containerSizes) }} {% if content['#settings'].layout_jump_link %} tabindex="-1" {% endif %}>
+  <section {{ attributes.addClass(classes).removeClass(gridClasses, containerSizes) }} {% if content['#settings'].layout_jump_link %} tabindex="-1" {% endif %}  {% if content['#settings'].layout_id %} id="{{ content['#settings'].layout_id }}" {% endif %}>
     <div class="container {{ content['#settings'].layout_container_size }}">
       <div class="section--header">
         <h2 class="section-header line-bottom">

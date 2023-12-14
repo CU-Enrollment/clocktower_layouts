@@ -55,7 +55,7 @@ layout_option_definitions:
       bg-white: 'White'
       bg-transparent: 'Transparent'
     layout: true
-    regions: false
+    regions: true
     weight: -90
 
   layout_section_bg_color:
@@ -66,7 +66,7 @@ layout_option_definitions:
     multi: false
     options:
       bg-gradient-dark-to-light: 'Gradient Light to Dark'
-      bg-primary: 'Primary'
+      bg-dark-gray: 'Dark Gray'
       bg-secondary: 'Secondary'
     layout: true
     regions: true
