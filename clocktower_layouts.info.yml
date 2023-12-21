@@ -2,4 +2,4 @@ name: Clocktower Layouts
 type: module
 description: Custom Layouts for the Clocktower Theme
 package: Custom
-core_version_requirement: ^10
+core_version_requirement: 9^ || ^10
